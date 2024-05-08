@@ -273,7 +273,7 @@ Por fim o nosso Rodapé contendo alguns links colocar abaixo da seção relógio
     <!-- fim rodapé-->
 ~~~
 
-# Ufa 😌 Terminamos o arquivo index.html como sera que está ficando ?
+# Ufa 😌 Terminamos o arquivo index.html como será que está ficando ?
 
 ![sohtml](https://s12.gifyu.com/images/SZZ9A.gif)
 
@@ -338,12 +338,14 @@ a:active {
   - #### 1025px — 1200px: desktops, telas grandes.;
   - #### 769px — 1024px: iPads, tablets, laptops;
  - #### 320px — 480px: dispositivos móveis celulares.
+
  ![mq](https://miro.medium.com/v2/resize:fit:900/1*yyB4EpJcUQ5W8h9X8wCm7g.png)
 
 ### `Desktop, Tablet, Celular`, assim respeitando a parte responsiva da criação do site, isso quer dizer que o site se adaptará em todas as telas possíveis tornando a navegação mais agradável para o usuário. ( todos os códigos serão um abaixo do outro, pois o CSS e uma folha de estilo em cascata, o navegador lê o código de cima para baixo ).
 
 # Desktop:
 Todas estilizações feitas nessa parte terá efeito quando a resolução da tela for entre  acima de `768px`
+
 ~~~css
 /*estilos do cabeçalho*/
 .cabecalho {
@@ -384,7 +386,9 @@ a.cabecalho__botao {
 	border: 5px  solid  #fff;
 }
 ~~~
+
 Seção 1:
+
 ~~~css
 /* estilo seção 1*/
 .secao1__descricao {
@@ -404,6 +408,7 @@ Seção 1:
 ~~~
 
 Seção 2:
+
 ~~~css
 /* estilo seção 2*/
 .secao2__img__titulo {
@@ -441,6 +446,7 @@ Seção 2:
 ~~~
 
 Seção 3:
+
 ~~~css
 /* estilo seção 3*/
 .secao3__imagem {
@@ -457,6 +463,7 @@ Seção 3:
 ~~~
 
 Seção 4:
+
 ~~~css
 /* estilo seção 4*/
 .secao4__titulo,
@@ -491,6 +498,7 @@ Seção 4:
 ~~~
 
 Seção 5:
+
 ~~~css
 /*Seçao 5 relogio clima*/
 .relogio{
@@ -688,6 +696,7 @@ Todas estilizações feitas nessa parte terá efeito quando a resolução da tel
 }
 ~~~
 #### ficará assim nossa versão para celular (OBS. novamente sem o relogio funcionando falta o Java script):
+
 ![mobile](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/cf7e5763-0359-4844-98e0-a8822f516258)
 
 
@@ -778,6 +787,7 @@ Todas estilizações feitas nessa parte terá efeito quando a resolução da tel
 }
 ~~~
 ####  Nossa versão para Tablet (OBS. novamente sem o relogio funcionando falta o Java script):
+
 ![tablet](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/0451cbf0-1b96-406c-b7d5-cdc1ae48fcf9)
 
 # Nessa etapa já finalizamos a parte responsiva do site e todas suas funções de estilo e ajuste estão funcionando falta somente nosso relogio funcionar.
@@ -836,17 +846,26 @@ comecaCronometro();
 
 ### Se acaso mesmo assim o relogio não iniciar ficar somente com os numeros `7 7 7 7`, verifique se voce adicionou a tag que referencia o arquivo `main.js` lá no fim do HTML dentro do `index.html`.
 como e mostrado abaixo: 
+
 ![JS](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/9e9259a7-a523-4502-896a-75a767277566)
 
+
+~~~html
+<script src="main.js"></script>
+~~~
 
 ## Chegamos ao fim do nosso site agora para que as modificações fique salvas temos que commitar ou seja confirmar as alterações, pois iremos publicar esse site no GitHub Pages e na Vercel.
 
 #### Comitando projeto, procure por esse icone no lado direito do seu explorador Vs Code e clique nele.
+
 ![comit1](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/e8a9fe44-02ac-4c2e-9467-4857f72efb09)
 
 #### Agora escreva uma mensagem que se refere as modificações feitas no codigo, toda vez que fizer modificações tem que repetir esse processo para que fique salvo.
+
 ![comit2msg](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/a9adc639-207a-426a-a47b-458784064f9e)
+
 #### Depois de descrever o que foi modificado aperte em Commit & Push ( Em alguns casos pede para sincronizar pode permitir )
+
 ![commit botão](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/dffef7ff-2a76-4a63-9bd1-22ba83faabec)
 
 #### Por fim ficara assim sem números no icone de Commit e o Botão fica sem função isso quer dizer que ja foi salvo as modificações.![comit finish](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/37e1694f-9d7f-4ff8-b310-ee84ad92e427)
@@ -855,36 +874,48 @@ como e mostrado abaixo:
 
 
 #### Vamos publicar nosso site no GitHub Pages seguindo os seguintes passos, clique na engrenagem que esta escrito Settings.
+
 ![setings](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/99647d1f-1547-4541-a078-5340283fb568)
 
 #### Depois vá em Pages na lateral esquerda ( procure pela seção Code and automation).
+
 ![pages](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/38edb5de-2957-4ebe-aa21-0ca04d7bd7d7)
 
 ####  Clique no botão que esta escrito `None` e selecione `main`.
+
 ![build](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/c339b410-4c71-4ff1-ae9d-1835258c1f96)
 
 #### Depois de alguns minutos seu site estará públicado e aparecerá uma imagen parecida com a abaixo contendo o link da pagina guarde ele para uso fututo.
+
 ![link](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/00373c71-d89e-4d8e-9b70-7a26719c234f)
 
 #### Agora que temos o link do Pages podemos tambem publicar na Vercel e outra plataforma aonde ospedamos nossos projetos feitos em HTML, CSS, JS de forma gratuita, as rubricas pede ou GitHub Pages ou Vercel então vamos ver como fazer mais essa publicação, vá ate o site da Vercel [Clique aqui](https://vercel.com/login).
 #### Faça o login usando sua conta GitHub.
+
 ![login vercel](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/6e59e686-2659-4530-852d-31a023a5d1f5)
+
 #### Depois de logar vá em ADD NEW um botão branco no canto superior direito.
+
 ![add new](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/aeace508-51a5-466d-a15e-aaf1725060d2)
 
 #### Selecione Project.
+
 ![projeto](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/6bd0b148-b7a4-4a5a-a584-5df7644b8ab9)
 
 #### Nesta etapa a plataforma Vercel listará todos seus repositorios para que você clique em import, então selecione o repositorio do agrinho que desenvolvemos. `(neste caso Agrinho-2024-formacao)`.
+
 ![import](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/a038869f-2e60-4f8e-a3ab-eb30b4e35bef)
 
 #### Iremos ser redirecionados para parte de deploy nessa etapa podemos colocar um nome mais amigavel ao nosso site, e depois de pronto clicar no botão `deploy`.
+
 ![deploy](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/6cb1a1bb-dd64-4936-abdb-06fc0ae05f7a)
 
 #### Aguarde aparecer a tela abaixo e clique na imagem do site que você será redirecionado para o site, anote novamente a URL ou o nome do site para usarmos na ultima etapa.
+
 ![okfinish](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/37bb9d43-ac9c-4925-a131-a814d30437e6)
 
 ####  Volte na parte principal do repositorio no GitHub  vá em README.md e altere os dados citando os nomes dos participantes referenciando as imagens textos coloque os links do seu site hospedado na vercel e Git Pages  como o exemplo abaixo.
+
 ![redme](https://github.com/professorrichardson/agrinho-ceaa/assets/125823124/57e1683a-983b-4f1b-88be-a01f38e9cfee)
  
  # Parabéns mais uma vez por ter concluido as etapas de criação de um site completo com HTML, CSS, JS  e de quebra ainda hospedar ele tornando publico na internet.

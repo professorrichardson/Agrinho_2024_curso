@@ -149,6 +149,38 @@ a.cabecalho__botao {
 	text-align: center;
 }
 
+/* estilo seção 4*/
+.secao4__titulo,
+.secao4__texto,
+.secao4__email,
+.secao4__fone,
+.secao4__endereco {
+  font-size: 25px;
+}
+.secao4 {
+  display: flex;
+  justify-content: space-around;
+}
+.secao4__container {
+  flex-wrap: nowrap;
+  color: var(--preto-titulo);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+.secao4__titulo {
+  font-size: 50px;
+}
+.secao4__imagem img {
+  width: 100%;
+}
+
+.secao4__endereco {
+  text-align: center;
+}
+
 /*Seçao 5 relogio clima*/
 .relogio{
 	background-color: var(--verde-principal);
