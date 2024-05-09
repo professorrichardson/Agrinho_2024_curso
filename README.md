@@ -35,7 +35,7 @@
 
 ![ex](https://github.com/professorrichardson/Agrinho-2024-formacao/assets/125823124/5ceda614-5c7d-47cd-9fa6-e5465f582d03)
 
-[Link da extensão](https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=pt-BR)
+# [Link da extensão](https://chromewebstore.google.com/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk?hl=pt-BR)
 
 
 # Vamos colocar a mão na massa.
