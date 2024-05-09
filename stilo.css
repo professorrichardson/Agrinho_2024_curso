@@ -49,7 +49,7 @@ a:active {
 
 /*estilos do cabeçalho*/
 .cabecalho {
-	background-image: url("img/4.png"); /* imagem da floresta*/
+	background-image: url("img/faRio.png"); /* imagem da floresta*/
 }
 .img {
 	width: 100%;
@@ -309,6 +309,11 @@ a.cabecalho__botao {
 	.secao2__imagens  img {
 		width: 100%;
 	} 
+	.secao1__imagem {
+		padding: 1em;
+		width: 50%;
+		height: auto;
+	}
 	
 	/* estilo seção 3*/
 	.secao3__texto {
@@ -386,7 +391,7 @@ a.cabecalho__botao {
 	}
 	.secao1__imagem {
 		padding: 1em;
-		width: 95%;
+		width: 80%;
 		height: auto;
 	}
 	 
