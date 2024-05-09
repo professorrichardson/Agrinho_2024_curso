@@ -2,7 +2,7 @@
 ### Nome: Aluno João
 ### Professor: Richardson 
 ### Colégio: Arthur de Azevedo
-[Git Pages](rischawarski.github.io/Agrinho_2024/)
+[Git Pages](https://rischawarski.github.io/Agrinho_2024/)
 
 [Vercel](https://agrofloresta-agrinho-2024.vercel.app/)
 
